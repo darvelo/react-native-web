@@ -3,9 +3,6 @@
   "version": "0.0.25",
   "description": "React Native for Web",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "del ./dist && mkdir dist && babel src -d dist --ignore **/__tests__,src/modules/specHelpers",
     "build:umd": "webpack --config webpack.config.js --sort-assets-by --progress",
